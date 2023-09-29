@@ -25,18 +25,18 @@ public class Ejercicio13 {
         
         System.out.print("Introduce el segundo numero ");
         num2 = sc.nextInt();
-    
+        
         if (num1==num2) {
             System.out.println("Los numeros " + num1 + " y " + num2 + " son iguales");
         }
         else if (num1>num2) {
-            System.out.println("Mostrando los numeros en orden ascendente: " + num2 + " " + num1);
+            System.out.println("Mostrando los numeros en orden ascendente: " + num2 + ", " + num1 + "...");
         }
         else if (num1<num2) {
-            System.out.println("Mostrando los numeros en orden ascendente: " + num1 + " " + num2);
+            System.out.println("Mostrando los numeros en orden ascendente: " + num1 + ", " + num2 + "...");
         }
         else {
-            System.out.println("Ha ocurrido un error");
+            System.out.println("Ha ocurrido un error.");
         }
     }
     
