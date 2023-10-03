@@ -16,10 +16,7 @@ public class HorasTrabajadas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int horas, tarnorm, tarextr;
-        
-        tarnorm = 20;
-        tarextr = 30;
+        int horas, tarnorm=20, tarextr=30;
         
         Scanner sc = new Scanner(System.in);
         
